@@ -29,7 +29,7 @@ Get Some Testnet Ether
 
 Find Source Code for a Standard ERC-20 Smart Contract. You want a well tested open source implementation such as the official Consensys or Open Zeppelin implementation. Select one of the following two options:
 
-  - Navigate to the [Consensys Token Repository](https://github.com/ConsenSys/Tokens).
+  - Navigate to the [Consensys Token Repository](https://github.com/ConsenSys/Tokens) (Deprecated).
 
   - Navigate to the [OpenZeppelin Smart Contract Repository] (https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts). Find
 
@@ -41,10 +41,6 @@ These repositories contain the solidity code you need to deploy your token.  Con
   - Enable the "Solidity Compiler" and "Deploy & Run Transactions" Tabs. Find them using the plugin manager on the left.
 
   - Copy the .sol files you need into remix. To create a new .sol file, click the "+" button in the top left. Either copy the code directly from github, or clone the repository and open the local files.
-
-      - For the Consensys implementation get
-          - EIP20interface.sol
-          - EIP20.sol
 
       - For the OpenZeppelin implementation get
           - ERC20.sol
@@ -83,6 +79,13 @@ These repositories contain the solidity code you need to deploy your token.  Con
       ```
       function YourTokenName(
       ```
+      
+### No Code Solution
+
+- [OpenZeppelin](https://docs.openzeppelin.com/contracts/4.x/wizard) has a no code wizard that you can use to setup the token
+
+- You can customize the different attributes such as Mintable, Pausable, Burnable, and other attributes
+- This is a great solution if you want to get the code up and running
 
 
 ### Customize your Smart Contract
