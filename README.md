@@ -1,3 +1,7 @@
+# DEPRECATED
+This repo is no longer used for content within LearnWeb3 DAO. Please follow https://github.com/LearnWeb3DAO/CryptocurrencyTutorial instead.
+
+
 # Issue an ERC-20 token with Remix and Metamask
 
 In this step-by-step tutorial you will learn how to issue and play with your own ERC-20 token on Ethereum. This tutorial can be completed by people with no blockchain programming experience and novice programmers.
